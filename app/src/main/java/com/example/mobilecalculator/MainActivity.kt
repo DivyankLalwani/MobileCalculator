@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity()
                  3;
              }
              '/' -> {
-                 3;
+                 2;
              }
              '-' -> {
                  1;
