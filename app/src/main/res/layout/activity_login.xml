@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+
+    >
+    <EditText
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/userName"
+        android:hint = "username "
+        android:focusable = "true"
+        android:layout_marginTop = "250dp"
+ />
+    <EditText
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/password"
+        android:hint = "password"
+        android:focusable = "true"
+        android:layout_marginTop = "46dp"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/login"
+        android:onClick="verifyCredentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20sp"/>
+
+
+</LinearLayout>
